@@ -316,18 +316,14 @@ iframe{
 
 .int__header__titulo {
     color:white;
-    font-size: 40px;
     font-family: 'Bangers', cursive;
     background-color: black;
-    height: 50vh;
     width: 400px;
-    padding-left: 10% ;
-    padding-right:15% ;
     overflow: hidden;
     text-align: center;
     margin-top: 5%;
-    margin-left: 25%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10%;
 
 }
