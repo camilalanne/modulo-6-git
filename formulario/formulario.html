@@ -2,37 +2,71 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/bootstrap.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../CSS/main.css" type="text/css" />
-	<title>Document</title>
+	<title>Form</title>
 </head>
 <body class="formulario__body">
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="" src="https://i.pinimg.com/564x/84/4c/87/844c87370ebd07535b761b7afc0ef977.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img class="" src="https://i.pinimg.com/564x/a9/8e/1d/a98e1d82187712daf38d75a80b3b11c9.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img class="" src="https://i.pinimg.com/564x/ea/61/fb/ea61fbfbd21459f60c8bd6b79744bb22.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
 	<main class="padre__flex">
 
-       <form action="" method="POST" enctype="multipart/form-data">
+       <form action="#" method="POST" enctype="multipart/form-data">
         
          <label for="nombre"> Nombre</label><br>
          <input type="text" id="fname" name="nombre"><br>
          <label for="Apellido"> Apellido</label><br>
          <input type="text" id="fname" name="Apellido"><br>
-        
-         <input type="email" value="jhonlennon@gmail.com"> 
+  
                  
          <select name="sexo">
 	       <option value="Mujer">mujer</option>
 	       <option value="hombre">hombre</option>
 	       <option value="otro">otro</option>
 	       </select>
+
+         <div class="form-group">
+         <label for="email">Email:</label>
+         <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
+
        
-        <input type="submit" value="Enviar">
-        <input type="button" value="Cancelar">
-        <input type="reset">
+        <input type="submit" class="btn btn-default value btn btn-dark" value="Enviar">
+        <input type="button" class="btn btn-default value btn btn-dark" value="Cancelar"> 
+        <input type="reset" class="btn btn-default btn btn-dark">
     
         <div>Acepta suscribirse a el newsletter sobre los Beatles</div>
-        <input type="checkbox" name="acepta" value="1" />
-       </form>
+        </form>
+
   
-  <div class="formulario__grid formulario__grid__tema formulario__grid__tema--borde">
+  <div class="formulario__grid formulario__grid__tema formulario__grid__tema--borde ">
         <header class="formulario__text formulario__header">A partir de los datos de las mencionadas organizaciones, se desprende que los Beatles son, con más de 600 millones de discos vendidos, el grupo más exitoso de la historia</header>
         <img class="formulario__img" src="https://upload.wikimedia.org/wikipedia/commons/d/df/The_Fabs.JPG" alt=" imagen de diseño">
         <section class="formulario__text formulario__section">Con 558.000 copias, el disco “Abbey Road”, última placa grabada por The Beatles y publicada en 1969, fue el vinilo más vendido de la década, según un informe presentado por Nielsen Music, la empresa que realiza una de las mediciones más exhaustivas del mercado. Abbey Road es una de las mejores obras de arte en este planeta olvidado de Dios, y sabes qué, en realidad nos hace ver como seres humanos decentes. Oye, al final, el amor que haces es igual a ... oh, solo escúchalo ya</section>
@@ -41,6 +75,9 @@
   </div>
 
 </main>
+
+ <script src="../js/bootstrap.js"></script>
+
 </body>
 </html>
 

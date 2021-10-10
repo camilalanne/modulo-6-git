@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+         <link rel="stylesheet" href="../css/bootstrap.css">
     </head>
     <body class="body__index">   
        <header class="header header__centrar">
@@ -20,25 +21,25 @@
             </div>
         </header>
         
+    <div class="container">
        <nav class="index__nav">
-            <ul class="index__home">
-                <li class="index__list"> 
-                    <a href="#">HOME</a> 
+            <ul class="index__home nav">
+                <li class="index__list nav-item"> 
+                    <a class="nav-link disabled" href="#">HOME</a> 
                 </li>
-                <li class="index__list"> 
+                <li class="index__list nav-item"> 
                     <a href= "integrantes/integrantes.html" >INTEGRANTES</a> 
                 </li>
-                <li class="index__list"> 
+                <li class="index__list nav-item"> 
                     <a href="#">MAS INFORMACION</a> 
                     <ul class="index__listlist">
-                    <a href="formulario/formulario.html">suscribete a nuestro newsletter</a>
+                    <am class="nav-link disabled" href="formulario/formulario.html">suscribete a nuestro newsletter</a>
                     </ul>
                 </li>
-
-                <li class="index__list">
+                <li class="index__list nav-item">
                     <a href="#">merchandising</a>
                     <ul class="index__listlist">
-                        <a href="https://listado.mercadolibre.com.ar/merchandising-the-beatlesmatt_tool=68536632matt_word=matt_source=googlematt_campaign_id=10375307423matt_ad_group_id=102828799643matt_match_type=bmatt_network=gmatt_device=cmatt_creative=444135776619matt_keyword=matt_ad_position=matt_ad_type=matt_merchant_id=matt_product_id=matt_product_partition_id=matt_target_id=aud-415044759576:dsa-19959388920gclid=Cj0KCQjwqKuKBhCxARIsACf4XuEmskfa7WL76OuiPiUW6NI8dRF-XFgBv18Zjn8_U0At6586o6WSWKwaAvSBEALw_wcB">mercado libre</a>
+                        <a class="nav-link disabled" href="https://listado.mercadolibre.com.ar/merchandising-the-beatlesmatt_tool=68536632matt_word=matt_source=googlematt_campaign_id=10375307423matt_ad_group_id=102828799643matt_match_type=bmatt_network=gmatt_device=cmatt_creative=444135776619matt_keyword=matt_ad_position=matt_ad_type=matt_merchant_id=matt_product_id=matt_product_partition_id=matt_target_id=aud-415044759576:dsa-19959388920gclid=Cj0KCQjwqKuKBhCxARIsACf4XuEmskfa7WL76OuiPiUW6NI8dRF-XFgBv18Zjn8_U0At6586o6WSWKwaAvSBEALw_wcB">mercado libre</a>
                     </ul>
                 </li>
 
@@ -51,6 +52,8 @@
                 </li>
             </ul>
         </nav>
+
+        </div>
 
         </br>
 
@@ -149,8 +152,51 @@
                      <h6>Suscribete a mi Newsletter llenando el siguiente formulario </h6>           
                      <a href="formulario/formulario.html"> Ingrese aqui</a>
          	         </br>
-          	        <a href="#mejores">Ir a top cinco mejores temas</a>		
+         
+          	        <a href="#mejores">Ir a top cinco mejores temas</a>	
             </section> 
          </footer>
+
+        <div >
+    |        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+           salir de la pagina
+        </button>
+
+        <div class="modal" id="myModal">
+        <div class="modal-dialog">
+        <div class="modal-content">
+      
+
+        <div class="modal-header">
+        <h4 class="modal-title">hola! deseas irte?</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+    
+        <div class="modal-body">
+        cargar nuevamente la pag...
+        </div>
+         
+
+        <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+        </div>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+      </div>
+    </div>
+  </div>
+  
+
+
+
+         <script src="../js/bootstrap.js"></script>
+
     </body>
 </html>
